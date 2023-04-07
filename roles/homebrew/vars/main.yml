@@ -1,0 +1,23 @@
+# file: ~/setup/roles/homebrew/vars/main.yml
+ 
+taps:
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - homebrew/core
+ 
+packages:
+  - { name: zsh, state: present }
+  - { name: git, state: present }
+  - { name: wget, state: present }
+  - { name: vim, state: present }
+  - { name: tree, state: present }
+  - { name: tmux, state: present }
+  - { name: peco, state: present }
+  - { name: act, state: present }
+  - { name: tfenv, state: present }
+  - { name: awscli, state: present }
+  - { name: oath-toolkit, state: present }
+  - { name: gh, state: present }
+  - { name: ghq, state: present }
+  - { name: jq, state: present }

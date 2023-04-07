@@ -1,0 +1,11 @@
+- name: KeyRepeat
+  community.general.osx_defaults:
+    key: KeyRepeat
+    type: int
+    value: 2
+
+- name: InitialKeyRepeat
+  community.general.osx_defaults:
+    key: InitialKeyRepeat
+    type: int
+    value: 13 

@@ -1,0 +1,15 @@
+# file ~/setup/setup.yml
+- name: mac setup
+  hosts: localhost
+  connection: local
+  # sudo実行有無（しないのでno）
+  become: no
+  # 対象サーバの情報収集（しないのでno）
+  gather_facts: no
+  # タスクの呼び出し
+  roles:
+    #- geerlingguy.dotfiles
+    #- zsh
+    - homebrew
+    - homebrew_cask
+    - mac_os
