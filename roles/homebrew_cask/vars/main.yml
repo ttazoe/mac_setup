@@ -21,3 +21,5 @@ packages:
   - { name: skitch, state: present }
   - { name: 1password, state: present }
   - { name: cheatsheet, state: present }
+  - { name: flutter, state: present }
+  - { name: android-studio, state: present }
