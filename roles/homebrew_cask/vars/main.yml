@@ -23,4 +23,5 @@ packages:
   - { name: cheatsheet, state: present }
   - { name: flutter, state: present }
   - { name: android-studio, state: present }
+  - { name: sourcetree, state: present }
 #  - { name: mqttx, state: present }
