@@ -22,3 +22,4 @@ packages:
   - { name: ghq, state: present }
   - { name: jq, state: present }
   - { name: cocoapods, state: present }
+  - { name: go, state: present }
