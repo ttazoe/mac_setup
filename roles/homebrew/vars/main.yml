@@ -24,3 +24,5 @@ packages:
   - { name: cocoapods, state: present }
   - { name: go, state: present }
   - { name: gradle, state: present }
+  - { name: python, state: present }
+  - { name: docker-compose, state: present }
