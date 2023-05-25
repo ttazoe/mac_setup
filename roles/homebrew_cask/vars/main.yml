@@ -11,7 +11,7 @@ packages:
   - { name: slack, state: present }
   - { name: postman, state: present }
   - { name: intellij-idea-ce, state: present }
-  - { name: app-cleaner, state: present }
+#  - { name: app-cleaner, state: present }
   - { name: rectangle, state: present }
   - { name: deepl, state: present }
   - { name: corretto11, state: present }
@@ -24,4 +24,5 @@ packages:
   - { name: flutter, state: present }
   - { name: android-studio, state: present }
   - { name: sourcetree, state: present }
+  - { name: wireshark, state: present }
 #  - { name: mqttx, state: present }

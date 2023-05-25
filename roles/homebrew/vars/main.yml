@@ -26,3 +26,5 @@ packages:
   - { name: gradle, state: present }
   - { name: python, state: present }
   - { name: docker-compose, state: present }
+  - { name: npm, state: present }
+  - { name: mosquitto, state: present }
