@@ -25,4 +25,5 @@ packages:
   - { name: android-studio, state: present }
   - { name: sourcetree, state: present }
   - { name: wireshark, state: present }
+  - { name: microsoft-edge, state: present }
 #  - { name: mqttx, state: present }
